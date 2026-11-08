@@ -41,4 +41,4 @@ report/                 final report
 !./bin/pdc_image images/batch results/batch_100.csv --batch 100
 !python scripts/plot_results.py
 ```
-On a lab machine: `make ARCH=sm_XX` (check your GPU's compute capability).
+On a lab machine: `make ARCH=sm_XX` 
