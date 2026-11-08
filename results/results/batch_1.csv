@@ -1,0 +1,5 @@
+image,width,height,filter,cpu_ms,h2d_ms,kernel_ms,d2h_ms,gpu_total_ms,speedup_kernel,speedup_total,max_diff
+img_000.png,512,512,grayscale,0.5971,0.2673,0.0188,0.0924,0.3785,31.807,1.577,1
+img_000.png,512,512,blur_global,3.1944,0.0843,0.0248,0.0945,0.2036,128.973,15.687,0
+img_000.png,512,512,blur_shared,3.0627,0.0838,0.0299,0.0942,0.2078,102.474,14.738,0
+img_000.png,512,512,sobel,2.1181,0.0998,0.0236,0.0862,0.2096,89.648,10.105,0
